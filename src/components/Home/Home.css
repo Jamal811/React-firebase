@@ -1,0 +1,56 @@
+/* Add these styles to your CSS file or within your style tags */
+
+/* Homepage container styles */
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(
+    28,
+    34,
+    52
+  ); /* Change the background color to your desired color */
+}
+
+/* Welcome card styles */
+.welcome-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Welcome message styles */
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Buttons container styles */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Login and Signup button styles */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff; /* Blue color, you can change it to your desired color */
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 6px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
